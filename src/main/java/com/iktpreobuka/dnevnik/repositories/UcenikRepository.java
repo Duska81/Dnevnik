@@ -13,9 +13,7 @@ public interface UcenikRepository extends CrudRepository<UcenikEntity, Integer> 
 
 	public Iterable<UcenikEntity> findAllById(Integer id);
 
-	public List<UcenikEntity> findByImeStartingWith(char letter);
 
-	public List<UcenikEntity> findAllByOrderByPrezimeAsc();
 
 	public boolean existsById(UcenikEntity ucenikId);
 
